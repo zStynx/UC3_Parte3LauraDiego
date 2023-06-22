@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header class="header">
+        <div class="flex">
+            <div class="imagen">
+                <img src="../static/images/logo.png" alt="logo">
+            </div>
+            <div class="navegacion">
+                <a href="/inicio">INICIO</a>
+                <a href="/primos">PRIMOS</a>
+                <a href="">EXAMEN</a>
+            </div>
+        </div>
+        
+    </header>
+    <div id="content">
+        {% block content %}
+        
+        {% endblock %}
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>

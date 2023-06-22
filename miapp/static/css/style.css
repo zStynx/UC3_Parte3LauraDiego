@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 50px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen{
+    width: 600px;
+}
+.imagen img{
+    width: 100%;
+    display: block;
+}
+.navegacion{
+    display: flex;
+    gap: 20px;
+}
